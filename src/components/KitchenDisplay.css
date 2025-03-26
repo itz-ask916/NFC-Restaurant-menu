@@ -1,0 +1,63 @@
+/* Kitchen Display Container */
+.kitchen-container {
+    max-width: 600px;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    background: #f4f4f4;
+  }
+  
+  /* Orders Grid */
+  .order-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 15px;
+    padding: 0;
+  }
+  
+  /* Order Card */
+  .order-card {
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    font-size: 16px;
+    transition: 0.3s;
+  }
+  
+  /* Order Status Colors */
+  .pending { background-color: #ffc107; }  /* Yellow */
+  .cooking { background-color: #17a2b8; }  /* Blue */
+  .ready { background-color: #28a745; }  /* Green */
+  .cancelled { background-color: #dc3545; }  /* Red */
+  
+  /* Order Text */
+  .order-card h3 {
+    font-size: 18px;
+    margin: 0 0 10px;
+  }
+  
+  .order-card ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .order-card li {
+    padding: 5px;
+  }
+  
+  /* Buttons */
+  .order-btn {
+    width: 100%;
+    padding: 8px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 5px;
+    border-radius: 5px;
+  }
+  
+  .start-cooking { background: #007bff; color: white; } /* Blue */
+  .mark-ready { background: #28a745; color: white; } /* Green */
+  .serve-remove { background: #dc3545; color: white; } /* Red */
+  

@@ -1,0 +1,89 @@
+/* Base Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Container */
+  .menu-container {
+    max-width: 400px;  /* Mobile-friendly width */
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /* Input Field */
+  input[type="number"] {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 16px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  /* Grid Layout for Menu */
+  .menu-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 columns */
+    gap: 10px;
+    padding: 0;
+    list-style: none;
+  }
+  
+  /* Menu Items */
+  .menu-item {
+    background-color: #fff;
+    padding: 12px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+  }
+  
+  .menu-item:hover {
+    background-color: #ffcc00;
+  }
+  
+  /* Selected Menu Item */
+  .selected {
+    background-color: #ffcc00 !important;
+  }
+  
+  /* Order Button */
+  .order-btn {
+    width: 90%;
+    padding: 12px;
+    font-size: 18px;
+    color: white;
+    background-color: #28a745;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    position: sticky;
+    bottom: 10px;
+    margin-top: 10px;
+  }
+  
+  .order-btn:hover {
+    background-color: #218838;
+  }
+  
+  /* Bill Summary */
+  .bill-summary {
+    background: white;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Message Styling */
+  .message {
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
